@@ -15,12 +15,12 @@ npm install --save buttonpatika
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'buttonpatika'
-import 'buttonpatika/dist/index.css'
+import { Button } from "buttonpatika";
+import "buttonpatika/dist/mystyle.css";
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button className="btnpatika" type="primary" text="My Happy Button" />
   }
 }
 ```
