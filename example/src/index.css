@@ -6,9 +6,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.btnpatika {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 1s;
+}
+
+.primary {
+  background-color: #1890ff;
+  color: white;
+}
+.primary:hover {
+  opacity: 0.8;
+}
+
+.default {
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.default:hover {
+  color: #1890ff;
+  border: 1px solid #1890ff;
+  transition: all 1s;
+}
+
+.dashed {
+  background-color: white;
+  border: 1px dashed lightgray;
+}
+.dashed:hover {
+  color: #1890ff;
+  border: 1px dashed #1890ff;
+  transition: all 1s;
+}
+
+.text {
+  background-color: transparent;
+}
+.text:hover {
+  background-color: rgba(222, 222, 222, 0.4);
+  transition: all 1s;
+}
+
+.link {
+  color: #1890ff;
+  background-color: transparent;
+}
+.link:hover {
+  opacity: 0.7;
+  transition: all 1s;
 }
